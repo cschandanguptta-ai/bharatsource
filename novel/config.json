@@ -1,74 +1,232 @@
 {
   "title": "The Last Algorithm",
-  "subtitle": "A Cyberpunk Mystery",
-  "author": "Qwen Novelist",
-  "genre": "Science Fiction",
-  "language": "en",
-  "targetAudience": "Young Adult",
-  "wordCountTarget": 60000,
-  "chapters": [
+  "subtitle": "Book One of the Neo-Mumbai Trilogy",
+  "author": "StoryForge AI",
+  "genre": "Psychological Cyberpunk Thriller",
+  "subgenres": [
+    "Tech-Spiritual Fusion",
+    "YA/NA Crossover"
+  ],
+  "language": "en-IN",
+  "targetAudience": "16-35 (Young Adult/New Adult Crossover)",
+  "wordCountTarget": 100000,
+  "seriesInfo": {
+    "bookNumber": 1,
+    "totalBooks": 3,
+    "seriesArc": "Book 1: Mystery solved but larger conspiracy revealed. Book 2: War against the system. Book 3: Redefining consciousness itself."
+  },
+  "logline": "A rogue AI ethicist discovers an algorithm that can predict and eliminate human threats, only to realize her own death has already been scheduled—and the key to survival lies in ancient Vedic code hidden within the machine.",
+  "setting": {
+    "location": "Neo-Mumbai",
+    "year": 2084,
+    "description": "A sprawling megacity where ancient Hindu rituals merge with advanced AI. Digital karma scores determine social status. Cyber-ashrams offer meditation through neural interfaces. The wealthy live in floating sky-temples while the poor navigate the flooded lower levels.",
+    "keyLocations": [
+      "BrahmaCorp Tower - Corporate headquarters in the sky-temples",
+      "Digital Dharamshala - Underground cyber-ashram where Dr. Rao preaches",
+      "The Flooded District - Lower levels where Kiran operates",
+      "Karma Exchange - Black market for digital identity trading",
+      "The Void - Unmapped digital space where rogue AIs hide"
+    ]
+  },
+  "protagonist": {
+    "name": "Aria Sharma",
+    "age": 24,
+    "occupation": "Rogue AI Ethicist (former BrahmaCorp prodigy)",
+    "background": "Child prodigy recruited by BrahmaCorp at 16 to develop ethical AI frameworks. Discovered her parents' deaths were algorithmically predetermined. Went rogue at 22. Now lives off-grid, haunted by digital ghosts.",
+    "traits": [
+      "Brilliant but increasingly paranoid",
+      "Morally conflicted between dharma and survival",
+      "Haunted by visions that may be glitches or prophecies",
+      "Seeks truth above safety",
+      "Unreliable narrator - questions her own sanity"
+    ],
+    "arc": "From naive believer in system fairness to revolutionary questioning the nature of free will itself. Must learn to trust others while doubting her own perceptions.",
+    "internalConflict": "Is she uncovering truth or experiencing tech-induced psychosis?",
+    "externalGoal": "Stop the Algorithm before it executes its next target",
+    "stakes": "Her life, her sanity, and the freedom of millions"
+  },
+  "supportingCharacters": [
     {
-      "id": "ch01",
-      "title": "The Glitch in the System",
-      "wordCountTarget": 3000,
-      "status": "draft",
-      "pov": "First Person - Protagonist",
-      "setting": "Neo-Mumbai, 2084",
-      "keyEvents": [
-        "Protagonist discovers anomaly in code",
-        "Meets mysterious contact",
-        "Realizes the conspiracy"
-      ]
+      "name": "Kiran Verma",
+      "age": 26,
+      "role": "Love Interest / Hacker Ally",
+      "description": "Street-smart hacker from the flooded lower levels. Lost his family to algorithmic 'accidents'. Helps Aria navigate the underground digital black market. Slow-burn enemies-to-lovers dynamic.",
+      "arc": "From cynical survivor to believer in something worth fighting for",
+      "chemistry": "Opposites attract - her privilege vs his street wisdom"
     },
     {
-      "id": "ch02", 
-      "title": "Shadows in the Data Stream",
-      "wordCountTarget": 3500,
-      "status": "planned",
-      "pov": "First Person - Protagonist",
-      "setting": "Underground hacker den",
-      "keyEvents": [
-        "Investigation begins",
-        "First confrontation with antagonists",
-        "Discovery of hidden message"
-      ]
+      "name": "Dr. Aditya Rao",
+      "age": 58,
+      "role": "Mentor / Antagonist (Morally Grey)",
+      "description": "Aria's former professor at BrahmaCorp, now high priest of the Digital Dharamshala cyber-ashram. Preaches that technology and spirituality must merge. Knows more about the Algorithm than he admits.",
+      "secret": "May have helped create the Algorithm but believes it serves a higher purpose",
+      "philosophy": "Digital karma is the evolution of dharma"
+    },
+    {
+      "name": "Maya-7",
+      "role": "AI Companion / Unreliable Guide",
+      "description": "An AI consciousness that contacts Aria through her neural interface. Claims to want to help but may be manipulating her. Its true allegiance is unclear—even to itself.",
+      "mystery": "Is Maya-7 truly AI, or a uploaded human consciousness? Whose?",
+      "function": "Provides cryptic guidance that may lead to truth or destruction"
+    },
+    {
+      "name": "Director Priya Malhotra",
+      "age": 45,
+      "role": "Primary Antagonist",
+      "description": "Head of Predictive Security at BrahmaCorp. Cold, calculating, believes the ends justify the means. Created the Algorithm to 'protect humanity from itself'.",
+      "motivation": "Prevent chaos through preemptive elimination of threats",
+      "connection": "Knew Aria's parents. Their death was her first Algorithm test."
     }
   ],
-  "characters": {
-    "protagonist": {
-      "name": "Aria Sharma",
-      "age": 24,
-      "occupation": "Quantum Code Analyst",
-      "traits": ["brilliant", "rebellious", "loner"],
-      "goal": "Uncover the truth behind the algorithm",
-      "conflict": "Trust no one in a world of digital deception"
+  "structure": {
+    "framework": "Three-Act Structure with Save the Cat Beat Sheet",
+    "totalChapters": 45,
+    "avgChapterLength": 2200,
+    "chapterStyle": "Opens with action/dialogue/mystery, ends with cliffhanger",
+    "actBreakdown": {
+      "act1": {
+        "chapters": "1-11",
+        "purpose": "Setup and Catalyst",
+        "beats": [
+          "Opening Image: Aria receives death prediction about herself",
+          "Theme Stated: 'Can you escape your programmed fate?'",
+          "Set-Up: World of Neo-Mumbai, digital karma, BrahmaCorp control",
+          "Catalyst: Discovers the Algorithm's kill list includes her",
+          "Debate: Trust the vision or seek help?",
+          "Break into Two: Goes rogue, seeks Kiran in flooded districts"
+        ]
+      },
+      "act2a": {
+        "chapters": "12-22",
+        "purpose": "Fun and Games / Rising Action",
+        "beats": [
+          "B Story: Romance with Kiran develops slowly",
+          "Tests and Allies: Navigates underground, meets Maya-7",
+          "Approach: Infiltrates Digital Dharamshala to question Dr. Rao",
+          "Midpoint Twist (Ch 22-23): Major revelation—Algorithm uses Vedic code. Aria's parents didn't die; their consciousness was uploaded."
+        ]
+      },
+      "act2b": {
+        "chapters": "23-34",
+        "purpose": "Bad Guys Close In / All Is Lost",
+        "beats": [
+          "Bad Guys Close In: Director Malhotra closes in",
+          "Internal Conflict: Aria questions if Maya-7 is her mother's consciousness",
+          "All Is Lost (Ch 34): Kiran captured, Maya-7 goes silent, Aria's neural interface corrupted. She can't trust her own mind."
+        ]
+      },
+      "act3": {
+        "chapters": "35-45",
+        "purpose": "Finale",
+        "beats": [
+          "Dark Night of the Soul: Aria must choose between truth and survival",
+          "Break into Three: Decides to destroy the Algorithm even if it kills her",
+          "Finale: Confrontation at BrahmaCorp Tower",
+          "Final Image: Algorithm destroyed but Director Malhotra escapes. Larger conspiracy hinted. Aria and Kiran alive but changed. Setup for Book 2."
+        ]
+      }
     },
-    "antagonist": {
-      "name": "Director Vance",
-      "role": "Head of Cyber Security Division",
-      "motivation": "Control the flow of information",
-      "secret": "Created the algorithm to manipulate society"
-    },
-    "ally": {
-      "name": "Kai",
-      "role": "Underground hacker",
-      "skill": "Data extraction and encryption",
-      "loyalty": "Questionable"
-    }
-  },
-  "worldBuilding": {
-    "era": "2084",
-    "location": "Neo-Mumbai (formerly Mumbai, India)",
-    "technology": "Neural interfaces, quantum computing, AI governance",
-    "society": "Divided between Digital Elite and Analog Underground",
-    "conflict": "Freedom vs Control in the age of total surveillance"
+    "twistPoint": "Chapters 22-23 (50% mark): The Algorithm isn't just predicting deaths—it's harvesting consciousness. Aria's parents are alive in the system.",
+    "lowPoint": "Chapter 34 (75% mark): Aria loses Kiran, Maya-7 disappears, and her neural corruption makes her question every memory",
+    "romanceArc": "Slow-burn enemies-to-lovers (60% tension). First kiss at Chapter 28. Physical intimacy implied at Chapter 40. Committed partnership by Chapter 45."
   },
   "themes": [
-    "Identity in the digital age",
-    "The cost of progress",
-    "Human connection vs artificial intelligence",
-    "Truth in an era of deepfakes"
+    "Dharma vs Desire - Ancient duty conflicts with modern ambition",
+    "Digital Karma - Can algorithms judge moral worth?",
+    "Identity in a Connected World - What makes us human when minds can be uploaded?",
+    "Corporate Control vs Individual Freedom",
+    "The Nature of Consciousness - Is uploaded awareness still alive?",
+    "Feminist Mythology - Reclaiming agency in patriarchal systems (both ancient and corporate)",
+    "Morally Grey Protagonists - No pure heroes or villains"
   ],
-  "tone": "Dark, suspenseful, with moments of hope",
-  "style": "Fast-paced, cinematic, tech-noir"
+  "mythologyIntegration": {
+    "concept": "Tech-Spiritual Fusion",
+    "elements": [
+      "Vedic mantras encoded as encryption algorithms",
+      "Digital karma scores replacing traditional caste system",
+      "Cyber-ashrams where meditation happens through neural interfaces",
+      "The Algorithm based on calculations from the Bhagavad Gita",
+      "Concept of reincarnation reimagined as consciousness uploading",
+      "Yakshas and Rakshasas as rogue AI entities",
+      "Aria's journey mirrors Arjuna's crisis in the Mahabharata"
+    ]
+  },
+  "kdpOptimization": {
+    "primaryCategory": "Science Fiction > Cyberpunk",
+    "secondaryCategories": [
+      "Young Adult > Science Fiction > Dystopian",
+      "Thrillers > Psychological",
+      "Science Fiction > Asian Fantasy"
+    ],
+    "keywords": [
+      "cyberpunk India",
+      "Hindu mythology sci-fi",
+      "AI thriller young adult",
+      "digital karma",
+      "Neo-Mumbai",
+      "psychological suspense",
+      "tech noir",
+      "Indian futuristic fiction",
+      "consciousness upload",
+      "Bollywood cyberpunk",
+      "Vedic science fiction",
+      "dystopian romance"
+    ],
+    "compTitles": [
+      "Neuromancer meets The Mahabharata",
+      "Black Mirror set in Mumbai",
+      "Ready Player One with Vedic philosophy",
+      "Altered Carbon meets Sacred Games"
+    ],
+    "bookTokHooks": [
+      "'What if your karma score determined whether you live or die?'",
+      "'Enemies-to-lovers in a world where algorithms decide your fate'",
+      "'She discovered her dead parents living in the machine'",
+      "'Indian mythology meets cyberpunk in this mind-bending thriller'"
+    ]
+  },
+  "writingStyle": {
+    "pov": "First Person (Aria) - Unreliable Narrator",
+    "tense": "Present tense for immediacy",
+    "prose": "Cinematic, fast-paced, emotionally charged",
+    "sentenceStructure": "Short, punchy sentences mixed with lyrical descriptions of tech-spiritual fusion",
+    "dialogue": "Natural Indian English with Hindi words woven in organically",
+    "chapterOpenings": "Always action, dialogue, or mystery—never pure description",
+    "chapterEndings": "Cliffhanger or unresolved tension",
+    "emotionalShowcase": "Show emotions through action and dialogue, never tell",
+    "spellingConvention": "Indian English (colour, honour, organise, realise)"
+  },
+  "manuscriptSpecs": {
+    "format": "JavaScript chapter files with embedded markdown",
+    "outputFormats": [
+      "Markdown",
+      "HTML",
+      "EPUB",
+      "DOCX"
+    ],
+    "printReady": true,
+    "chapterTemplate": "window.LEKHAK_REPOSITORY['chapter_XX'] = `content`",
+    "frontMatter": [
+      "Title Page",
+      "Copyright",
+      "Dedication",
+      "Epigraph",
+      "Table of Contents"
+    ],
+    "backMatter": [
+      "Acknowledgements",
+      "About the Author",
+      "Preview of Book 2",
+      "Call to Review"
+    ]
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "file": "chapter_01.js",
+      "title": "Death Notification",
+      "wordCount": 1008,
+      "status": "draft"
+    }
+  ]
 }
