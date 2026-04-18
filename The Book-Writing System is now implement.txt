@@ -1,0 +1,117 @@
+The Book-Writing System is now implemented. Here's how to use it:
+
+Quick Start
+1. Create a Volume Config File
+Create config_vol1.json in your project root:
+
+{
+  "author": "Your Name",
+  "bookTitle": "Your Book Title",
+  "bookSubtitle": "A Subtitle",
+  "volume": "Volume 1: Foundation",
+  "edition": "First Edition, 2026",
+  "publisher": "Your Publisher",
+  "cefr": "A1-A2",
+  "year": "2026",
+  "chaptersDir": "./chapters",
+  "outputDir": "./output",
+  "chapterManifest": [
+    { "file": "v1_ch1_intro.js", "num": "1", "title": "Introduction", "titleEn": "Introduction", "type": "core" }
+  ]
+}
+2. Create Chapter Files
+Create chapters in the ./chapters directory using the template format:
+
+if (typeof window !== 'undefined') {
+  window.LEKHAK_REPOSITORY = window.LEKHAK_REPOSITORY || {};
+}
+
+window.LEKHAK_REPOSITORY["v1_c1"] = `
+# Chapter Title
+## Chapter Title in English
+
+Your content here...
+`;
+3. Compile
+Run from project root:
+
+node compile_vol1.js
+Or compile all volumes:
+
+node -e "const {compileAllVolumes} = require('./src/multi-volume-manager'); console.log(JSON.stringify(compileAllVolumes('.'), null, 2));"
+4. Output
+The compiler generates:
+
+manuscript_v1.md
+ - Raw markdown
+manuscript_v1.html
+ - Print-ready HTML with CSS
+Open the HTML file in a browser and click "Print / Save PDF" to generate your book.
+
+Key Modules
+Module	Purpose
+chapter-template.js
+Generate new chapter file templates
+volume-compiler.js
+Main compilation logic
+quality-auditor.js
+Check word counts & structure
+markdown-to-html.js
+Convert markdown to HTML
+print-css.js
+A4 print styling
+Credits used: 1.25
+Elapsed time: 35s
+
+
+Checkpoint
+Restore
+can we use kiro agent to draft book
+
+Kiro
+Thinking completed
++
+Yes! Kiro can definitely help you draft books using this system. Here's how:
+
+Using Kiro to Draft Your Book
+1. Generate Chapter Templates
+Ask Kiro to create a new chapter file:
+
+"Create a new chapter template for Volume 1, Chapter 3 about English tenses"
+
+Kiro will use 
+chapter-template.js
+ to generate a properly formatted .js file with:
+
+Bilingual headers (Hindi + English)
+All required sections (Learning Objectives, Error Lab, Practice, etc.)
+Correct LEKHAK_REPOSITORY format
+2. Write Content
+Ask Kiro to write chapter content:
+
+"Write content for a chapter about English tenses for Hindi speakers at A1-A2 level. Include 5 common mistakes in the Error Lab section."
+
+Kiro will draft the markdown content in the correct format.
+
+3. Compile & Preview
+After you save chapter files, ask Kiro to compile:
+
+"Compile Volume 1"
+
+Kiro will run compile_vol1.js and generate the HTML output.
+
+4. Quality Check
+Ask Kiro to audit your chapters:
+
+"Run quality audit on Volume 1"
+
+Kiro will use 
+quality-auditor.js
+ to check word counts, structure, and provide feedback.
+
+Want me to help you start drafting a book now? Just tell me:
+
+Book title
+Target CEFR level (A1-C2)
+Language focus (e.g., Hindi-English)
+First chapter topic
