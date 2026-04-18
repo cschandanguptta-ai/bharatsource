@@ -227,6 +227,48 @@
       "title": "Death Notification",
       "wordCount": 1008,
       "status": "draft"
+    },
+    {
+      "number": 2,
+      "file": "chapter_02.js",
+      "title": "Chapter 2: The Flooded District",
+      "wordCount": 2305,
+      "status": "draft"
+    },
+    {
+      "number": 3,
+      "file": "chapter_03.js",
+      "title": "Chapter 3: The White Void",
+      "wordCount": 1519,
+      "status": "draft"
+    },
+    {
+      "number": 4,
+      "file": "chapter_04.js",
+      "title": "Chapter 4: The Cyber-Ashram",
+      "wordCount": 1993,
+      "status": "draft"
+    },
+    {
+      "number": 5,
+      "file": "chapter_05.js",
+      "title": "Chapter 5: The Hall of Mirrors",
+      "wordCount": 1966,
+      "status": "draft"
+    },
+    {
+      "number": 6,
+      "file": "chapter_06.js",
+      "title": "Chapter 6: The Memory Palace",
+      "wordCount": 2159,
+      "status": "draft"
+    },
+    {
+      "number": 7,
+      "file": "chapter_07.js",
+      "title": "Chapter 7: The Glitch in Paradise",
+      "wordCount": 1411,
+      "status": "draft"
     }
   ]
 }
