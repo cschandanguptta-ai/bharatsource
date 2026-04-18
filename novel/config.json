@@ -227,6 +227,20 @@
       "title": "Death Notification",
       "wordCount": 1008,
       "status": "draft"
+    },
+    {
+      "number": 2,
+      "file": "chapter_02.js",
+      "title": "Chapter 2: The Flooded District",
+      "wordCount": 2305,
+      "status": "draft"
+    },
+    {
+      "number": 3,
+      "file": "chapter_03.js",
+      "title": "Chapter 3: The White Void",
+      "wordCount": 1519,
+      "status": "draft"
     }
   ]
 }

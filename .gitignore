@@ -1,1 +1,30 @@
-Nothing should be ignored in this case, as the only added file is a JavaScript source file (`novel/chapters/chapter_02.js`) which is legitimate source code that should be tracked by git. No build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Build/output artifacts
+novel/output/
+
+# Dependencies and virtual environments
+node_modules/
+venv/
+.venv/
+__pycache__/
+.nyc_output/
+coverage/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors and IDE
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
+```
