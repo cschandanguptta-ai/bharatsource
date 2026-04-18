@@ -1,0 +1,51 @@
+```
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Distribution / packaging
+*.tar.gz
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# System files
+.DS_Store
+Thumbs.db
+```

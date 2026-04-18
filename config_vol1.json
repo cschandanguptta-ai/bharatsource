@@ -1,0 +1,78 @@
+{
+  "author": "Dr. Rajesh Kumar",
+  "bookTitle": "अंग्रेज़ी व्याकरण और लेखन",
+  "bookSubtitle": "English Grammar and Writing Skills",
+  "volume": "Volume 1",
+  "edition": "First Edition",
+  "publisher": "Kiro Educational Press",
+  "cefr": "A1-A2",
+  "year": "2025",
+  "chaptersDir": "./chapters",
+  "outputDir": "./output",
+  "chapterManifest": [
+    {
+      "file": "v1_ch1_introduction.js",
+      "num": "1",
+      "title": "परिचय: अंग्रेज़ी भाषा का परिचय",
+      "titleEn": "Introduction to English Language",
+      "type": "core",
+      "targetWords": 10000
+    },
+    {
+      "file": "v1_ch2_nouns.js",
+      "num": "2",
+      "title": "संज्ञा: नाम और प्रकार",
+      "titleEn": "Nouns: Names and Types",
+      "type": "core",
+      "targetWords": 10000
+    },
+    {
+      "file": "v1_ch3_verbs.js",
+      "num": "3",
+      "title": "क्रिया: कार्य और काल",
+      "titleEn": "Verbs: Actions and Tenses",
+      "type": "core",
+      "targetWords": 10000
+    },
+    {
+      "file": "v1_bonus1_common_mistakes.js",
+      "num": "B1",
+      "title": "सामान्य गलतियाँ और सुधार",
+      "titleEn": "Common Mistakes and Corrections",
+      "type": "bonus",
+      "targetWords": 5000
+    }
+  ],
+  "output": {
+    "formats": ["md", "html"],
+    "outputDir": "./output",
+    "fileNames": {
+      "md": "manuscript_v1.md",
+      "html": "manuscript_v1.html"
+    }
+  },
+  "quality": {
+    "targetWordCount": 10000,
+    "passThreshold": 9000,
+    "warnThreshold": 7000
+  },
+  "styling": {
+    "pageSize": "A4",
+    "margins": {
+      "top": "2.5cm",
+      "right": "2cm",
+      "bottom": "2.5cm",
+      "left": "2.5cm"
+    },
+    "fonts": {
+      "primary": "Noto Serif Devanagari",
+      "secondary": "Source Serif 4",
+      "mono": "Consolas"
+    },
+    "colors": {
+      "primary": "#1A237E",
+      "text": "#212121",
+      "background": "#ffffff"
+    }
+  }
+}

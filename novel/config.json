@@ -1,0 +1,74 @@
+{
+  "title": "The Last Algorithm",
+  "subtitle": "A Cyberpunk Mystery",
+  "author": "Qwen Novelist",
+  "genre": "Science Fiction",
+  "language": "en",
+  "targetAudience": "Young Adult",
+  "wordCountTarget": 60000,
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "The Glitch in the System",
+      "wordCountTarget": 3000,
+      "status": "draft",
+      "pov": "First Person - Protagonist",
+      "setting": "Neo-Mumbai, 2084",
+      "keyEvents": [
+        "Protagonist discovers anomaly in code",
+        "Meets mysterious contact",
+        "Realizes the conspiracy"
+      ]
+    },
+    {
+      "id": "ch02", 
+      "title": "Shadows in the Data Stream",
+      "wordCountTarget": 3500,
+      "status": "planned",
+      "pov": "First Person - Protagonist",
+      "setting": "Underground hacker den",
+      "keyEvents": [
+        "Investigation begins",
+        "First confrontation with antagonists",
+        "Discovery of hidden message"
+      ]
+    }
+  ],
+  "characters": {
+    "protagonist": {
+      "name": "Aria Sharma",
+      "age": 24,
+      "occupation": "Quantum Code Analyst",
+      "traits": ["brilliant", "rebellious", "loner"],
+      "goal": "Uncover the truth behind the algorithm",
+      "conflict": "Trust no one in a world of digital deception"
+    },
+    "antagonist": {
+      "name": "Director Vance",
+      "role": "Head of Cyber Security Division",
+      "motivation": "Control the flow of information",
+      "secret": "Created the algorithm to manipulate society"
+    },
+    "ally": {
+      "name": "Kai",
+      "role": "Underground hacker",
+      "skill": "Data extraction and encryption",
+      "loyalty": "Questionable"
+    }
+  },
+  "worldBuilding": {
+    "era": "2084",
+    "location": "Neo-Mumbai (formerly Mumbai, India)",
+    "technology": "Neural interfaces, quantum computing, AI governance",
+    "society": "Divided between Digital Elite and Analog Underground",
+    "conflict": "Freedom vs Control in the age of total surveillance"
+  },
+  "themes": [
+    "Identity in the digital age",
+    "The cost of progress",
+    "Human connection vs artificial intelligence",
+    "Truth in an era of deepfakes"
+  ],
+  "tone": "Dark, suspenseful, with moments of hope",
+  "style": "Fast-paced, cinematic, tech-noir"
+}
